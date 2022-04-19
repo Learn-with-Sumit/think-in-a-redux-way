@@ -7,23 +7,28 @@
 <br />
 <p align="center">
     <img src="images/lws-logo.png" alt="Logo" width="80" height="80" />
-    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way</a></h3>
+    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 1 - Lesson 1</a></h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
 
+-   [Get HTML template](#get-html-template)
 -   [How to run](#how-to-run)
 -   [Contact](#contact)
+
+<!-- GET HTML TEMPLATE -->
+
+## Get HTML Template
+
+You can find the raw HTML template of the counter application from the "html_template" folder.
 
 <!-- HOW TO RUN -->
 
 ## How to run
 
-Different lessons taught in this [Redux Bangla Course by Learn with Sumit](https://learnwithsumit.com/think-in-a-redux-way), are organized in separate branches with naming convention - [**module number**].[**lesson number**]. For example, **Module-1 Lesson-1** source code is shared in **1.1** branch. Just switch to a branch and follow the corresponding branch's README file instruction.
-
-Please follow the below instructions to run different branches of this respository in your machine:
+Please follow the below instructions to run this branch in your machine:
 
 1. Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
 
@@ -31,13 +36,13 @@ Please follow the below instructions to run different branches of this resposito
     ```sh
     git clone https://github.com/learnwithsumit/think-in-a-redux-way
     ```
-3. Checkout/switch to your desired branch. For example to switch to branch 2.1 -
+3. Checkout/switch to branch 1.1
 
 ```sh
-git checkout 2.1
+git checkout 1.1
 ```
 
-4. Follow the corresponding branch's README file instruction to run code.
+4. Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
 <!-- CONTACT -->
 
