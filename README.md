@@ -7,7 +7,7 @@
 <br />
 <p align="center">
     <img src="images/lws-logo.png" alt="Logo" width="80" height="80" />
-    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 1 - Lesson 1</a></h3>
+    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 1 - Lesson 13 - Task - Make a multi counter with reset feature</a></h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -15,34 +15,13 @@
 ## Table of Contents
 
 -   [Get HTML template](#get-html-template)
--   [How to run](#how-to-run)
 -   [Contact](#contact)
 
 <!-- GET HTML TEMPLATE -->
 
 ## Get HTML Template
 
-You can find the raw HTML template of the counter application from the "html_template" folder.
-
-<!-- HOW TO RUN -->
-
-## How to run
-
-Please follow the below instructions to run this branch in your machine:
-
-1. Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
-
-2. Clone this repository -
-    ```sh
-    git clone https://github.com/learnwithsumit/think-in-a-redux-way
-    ```
-3. Checkout/switch to branch 1.1
-
-```sh
-git checkout 1.1
-```
-
-4. Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+You can find the raw HTML template of the task given from the "html_template" folder.
 
 <!-- CONTACT -->
 
