@@ -7,7 +7,7 @@
 <br />
 <p align="center">
     <img src="images/lws-logo.png" alt="Logo" width="80" height="80" />
-    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 1 - Lesson 8</a></h3>
+    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 1 - Lesson 9</a></h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -36,10 +36,10 @@ Please follow the below instructions to run this branch in your machine:
     ```sh
     git clone https://github.com/learnwithsumit/think-in-a-redux-way
     ```
-3. Checkout/switch to branch 1.8
+3. Checkout/switch to branch 1.9
 
 ```sh
-git checkout 1.8
+git checkout 1.9
 ```
 
 4. Just run the index.html file with Visual Studio Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
