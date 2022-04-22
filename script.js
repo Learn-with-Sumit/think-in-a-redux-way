@@ -5,7 +5,7 @@ const decrementEl = document.getElementById("decrement");
 
 // action identifiers
 const INCREMENT = "increment";
-const DECREMENT = "increment";
+const DECREMENT = "decrement";
 
 // action creators
 const increment = (value) => {
