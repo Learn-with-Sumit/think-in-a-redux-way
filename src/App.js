@@ -11,7 +11,7 @@ export default function App() {
                 </h1>
 
                 <div className="max-w-md mx-auto mt-10 space-y-5">
-                    <HooksCounter id="1" />
+                    <HooksCounter />
                 </div>
             </div>
         </Provider>

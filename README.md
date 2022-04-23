@@ -7,7 +7,7 @@
 <br />
 <p align="center">
     <img src="images/lws-logo.png" alt="Logo" width="80" height="80" />
-    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 2 - Lesson 5</a></h3>
+    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 2 - Lesson 6</a></h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -36,10 +36,10 @@ Please follow the below instructions to run this branch in your machine:
     ```sh
     git clone https://github.com/learnwithsumit/think-in-a-redux-way
     ```
-3. Checkout/switch to branch 2.5
+3. Checkout/switch to branch 2.6
 
 ```sh
-git checkout 2.5
+git checkout 2.6
 ```
 
 4. Install node_modules -
