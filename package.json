@@ -11,6 +11,7 @@
     "react-redux": "^8.0.1",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
+    "redux-logger": "^3.0.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
