@@ -4,287 +4,182 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Simple Shopping Cart with React-Redux</title>
+        <title>Todo | Redux Fundamental Example</title>
         <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;300;400;500;700;900&display=swap"
+            rel="stylesheet"
+        />
+
+        <script>
+            tailwind.config = {
+                theme: {
+                    fontFamily: {
+                        sans: ["Noto Sans HK", "sans-serif"],
+                    },
+                },
+            };
+        </script>
     </head>
     <body>
-        <div class="bg-gray-50 h-full md:h-screen">
-            <div class="grid place-items-center">
-                <h1
-                    class="text-gray-900 font-bold text-3xl p-10 underline decoration-purple-500 decoration-4 underline-offset-8 mb-4"
-                >
-                    Shopping Cart
-                </h1>
+        <div
+            class="grid place-items-center bg-blue-100 h-screen px-6 font-sans"
+        >
+            <!-- navbar -->
+            <div
+                class="fixed top-0 left-0 text-center w-full header bg-violet-600 py-4 text-white font-bold text-lg shadow-lg"
+            >
+                Simple Todo Application with Redux
             </div>
-            <div class="grid grid-cols-12 gap-6">
+
+            <div class="w-full max-w-3xl shadow-lg rounded-lg p-6 bg-white">
+                <!-- header -->
+                <div>
+                    <form
+                        class="flex items-center bg-gray-100 px-4 py-4 rounded-md"
+                    >
+                        <img
+                            src="./images/notes.png"
+                            class="w-6 h-6"
+                            alt="Add todo"
+                        />
+                        <input
+                            type="text"
+                            placeholder="Type your todo"
+                            class="w-full text-lg px-4 py-1 border-none outline-none bg-gray-100 text-gray-500"
+                        />
+                        <button
+                            type="submit"
+                            class="appearance-none w-8 h-8 bg-[url('./images/plus.png')] bg-no-repeat bg-contain"
+                        ></button>
+                    </form>
+
+                    <ul class="flex justify-between my-4 text-xs text-gray-500">
+                        <li class="flex space-x-1 cursor-pointer">
+                            <img
+                                class="w-4 h-4"
+                                src="./images/double-tick.png"
+                                alt="Complete"
+                            />
+                            <span>Complete All Tasks</span>
+                        </li>
+                        <li class="cursor-pointer">Clear completed</li>
+                    </ul>
+                </div>
+                <hr class="mt-4" />
+
+                <!-- todo list -->
                 <div
-                    class="col-span-12 sm:col-span-12 md:col-span-7 lg:col-span-8 xxl:col-span-8"
+                    class="mt-2 text-gray-700 text-sm max-h-[300px] overflow-y-auto"
                 >
+                    <!-- todo -->
                     <div
-                        class="bg-white py-4 px-4 shadow-md rounded-lg my-4 mx-4"
+                        class="flex justify-start items-center p-2 hover:bg-gray-100 hover:transition-all space-x-4 border-b border-gray-400/20 last:border-0"
                     >
-                        <div class="flex justify-between px-4 items-center">
-                            <div class="text-lg font-semibold">
-                                <p>Asus Vivobook X515MA (20)</p>
-                                <p class="text-gray-400 text-base">Tk 35,500</p>
-                            </div>
-                            <div class="text-lg font-semibold">
-                                <button
-                                    class="focus:outline-none bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 px-2 rounded-full inline-flex items-center"
-                                >
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="h-6 w-6"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                                        />
-                                    </svg>
-                                </button>
-                            </div>
+                        <div
+                            class="rounded-full bg-white border-2 border-gray-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 border-green-500 focus-within:border-green-500"
+                        >
+                            <input
+                                type="checkbox"
+                                class="opacity-0 absolute rounded-full"
+                            />
+                            <svg
+                                class="hidden fill-current w-3 h-3 text-green-500 pointer-events-none"
+                                viewBox="0 0 20 20"
+                            >
+                                <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                            </svg>
                         </div>
+
+                        <div class="select-none flex-1 line-through">
+                            Learn React from Learn with Sumit YouTube Channel
+                        </div>
+
+                        <div
+                            class="flex-shrink-0 h-4 w-4 rounded-full border-2 ml-auto cursor-pointer border-green-500 hover:bg-green-500 bg-green-500"
+                        ></div>
+
+                        <div
+                            class="flex-shrink-0 h-4 w-4 rounded-full border-2 ml-auto cursor-pointer border-yellow-500 hover:bg-yellow-500"
+                        ></div>
+
+                        <div
+                            class="flex-shrink-0 h-4 w-4 rounded-full border-2 ml-auto cursor-pointer border-red-500 hover:bg-red-500"
+                        ></div>
+
+                        <img
+                            src="./images/cancel.png"
+                            class="flex-shrink-0 w-4 h-4 ml-2 cursor-pointer"
+                            alt="Cancel"
+                        />
                     </div>
+
+                    <!-- todo -->
                     <div
-                        class="bg-white py-4 px-4 shadow-md rounded-lg my-4 mx-4"
+                        class="flex justify-start items-center p-2 hover:bg-gray-100 hover:transition-all space-x-4 border-b border-gray-400/20 last:border-0"
                     >
-                        <div class="flex justify-between px-4 items-center">
-                            <div class="text-lg font-semibold">
-                                <p>Dell E1916HV 18.5 Inch (35)</p>
-                                <p class="text-gray-400 text-base">Tk 9,300</p>
-                            </div>
-                            <div class="text-lg font-semibold">
-                                <button
-                                    class="focus:outline-none bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 px-2 rounded-full inline-flex items-center"
-                                >
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="h-6 w-6"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                                        />
-                                    </svg>
-                                </button>
-                            </div>
+                        <div
+                            class="rounded-full bg-white border-2 border-gray-400 w-5 h-5 flex flex-shrink-0 justify-center items-center mr-2 border-green-500 focus-within:border-green-500"
+                        >
+                            <input
+                                type="checkbox"
+                                class="opacity-0 absolute rounded-full"
+                            />
+                            <svg
+                                class="hidden fill-current w-3 h-3 text-green-500 pointer-events-none"
+                                viewBox="0 0 20 20"
+                            >
+                                <path d="M0 11l2-2 5 5L18 3l2 2L7 18z" />
+                            </svg>
                         </div>
-                    </div>
-                    <div
-                        class="bg-white py-4 px-4 shadow-md rounded-lg my-4 mx-4"
-                    >
-                        <div class="flex justify-between px-4 items-center">
-                            <div class="text-lg font-semibold">
-                                <p>Canon Eos 4000D 18MP (72)</p>
-                                <p class="text-gray-400 text-base">Tk 36,500</p>
-                            </div>
-                            <div class="text-lg font-semibold">
-                                <button
-                                    class="focus:outline-none bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 px-2 rounded-full inline-flex items-center"
-                                >
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        class="h-6 w-6"
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="2"
-                                            d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"
-                                        />
-                                    </svg>
-                                </button>
-                            </div>
+
+                        <div class="select-none flex-1">
+                            Learn Redux from Think in a Redux way course
                         </div>
+
+                        <div
+                            class="flex-shrink-0 h-4 w-4 rounded-full border-2 ml-auto cursor-pointer border-green-500 hover:bg-green-500 bg-green-500"
+                        ></div>
+
+                        <div
+                            class="flex-shrink-0 h-4 w-4 rounded-full border-2 ml-auto cursor-pointer border-yellow-500 hover:bg-yellow-500"
+                        ></div>
+
+                        <div
+                            class="flex-shrink-0 h-4 w-4 rounded-full border-2 ml-auto cursor-pointer border-red-500 hover:bg-red-500"
+                        ></div>
+
+                        <img
+                            src="./images/cancel.png"
+                            class="flex-shrink-0 w-4 h-4 ml-2 cursor-pointer"
+                            alt="Cancel"
+                        />
                     </div>
                 </div>
-                <div
-                    class="col-span-12 sm:col-span-12 md:col-span-5 lg:col-span-4 xxl:col-span-4"
-                >
-                    <div
-                        class="bg-white py-4 px-4 shadow-md rounded-lg my-4 mx-4"
-                    >
-                        <div class="flex justify-between border-b-2 mb-2">
-                            <div class="text-lg py-2">
-                                <p>Asus Vivobook X515MA</p>
-                            </div>
-                            <div class="text-lg py-2">
-                                <div
-                                    class="flex flex-row space-x-2 w-full items-center rounded-lg"
-                                >
-                                    <button
-                                        class="focus:outline-none bg-purple-700 hover:bg-purple-800 text-white font-bold py-1 px-1 rounded-full inline-flex items-center"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="h-4 w-4"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M18 12H6"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <p>0</p>
-                                    <button
-                                        class="focus:outline-none bg-purple-700 hover:bg-purple-800 text-white font-bold py-1 px-1 rounded-full inline-flex items-center"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="h-4 w-4"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="flex justify-between border-b-2 mb-2">
-                            <div class="text-lg py-2">
-                                <p>Dell E1916HV 18.5 Inch</p>
-                            </div>
-                            <div class="text-lg py-2">
-                                <div
-                                    class="flex flex-row space-x-2 w-full items-center rounded-lg"
-                                >
-                                    <button
-                                        class="focus:outline-none bg-purple-700 hover:bg-purple-800 text-white font-bold py-1 px-1 rounded-full inline-flex items-center"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="h-4 w-4"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M18 12H6"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <p>0</p>
-                                    <button
-                                        class="focus:outline-none bg-purple-700 hover:bg-purple-800 text-white font-bold py-1 px-1 rounded-full inline-flex items-center"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="h-4 w-4"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="flex justify-between border-b-2 mb-2">
-                            <div class="text-lg py-2">
-                                <p>Canon Eos 4000D 18MP</p>
-                            </div>
-                            <div class="text-lg py-2">
-                                <div
-                                    class="flex flex-row space-x-2 w-full items-center rounded-lg"
-                                >
-                                    <button
-                                        class="focus:outline-none bg-purple-700 hover:bg-purple-800 text-white font-bold py-1 px-1 rounded-full inline-flex items-center"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="h-4 w-4"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M18 12H6"
-                                            />
-                                        </svg>
-                                    </button>
-                                    <p>0</p>
-                                    <button
-                                        class="focus:outline-none bg-purple-700 hover:bg-purple-800 text-white font-bold py-1 px-1 rounded-full inline-flex items-center"
-                                    >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            class="h-4 w-4"
-                                            fill="none"
-                                            viewBox="0 0 24 24"
-                                            stroke="currentColor"
-                                        >
-                                            <path
-                                                stroke-linecap="round"
-                                                stroke-linejoin="round"
-                                                stroke-width="2"
-                                                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-                                            />
-                                        </svg>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div
-                            class="flex justify-center items-center text-center"
-                        >
-                            <div class="text-xl font-semibold">
-                                <p>Total Item</p>
-                                <p class="text-5xl">0</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="bg-white py-4 px-4 shadow-md rounded-lg my-4 mx-4"
-                    >
-                        <div
-                            class="flex justify-center items-center text-center"
-                        >
-                            <div class="text-xl font-semibold">
-                                <p>Total Price</p>
-                                <p class="text-5xl">0</p>
-                            </div>
-                        </div>
-                    </div>
+                <hr class="mt-4" />
+                <div class="mt-4 flex justify-between text-xs text-gray-500">
+                    <p>2 tasks left</p>
+                    <ul class="flex space-x-1 items-center text-xs">
+                        <li class="cursor-pointer font-bold">All</li>
+                        <li>|</li>
+                        <li class="cursor-pointer">Incomplete</li>
+                        <li>|</li>
+                        <li class="cursor-pointer">Complete</li>
+                        <li></li>
+                        <li></li>
+                        <li
+                            class="h-3 w-3 border-2 border-green-500 md:hover:bg-green-500 rounded-full cursor-pointer bg-green-500"
+                        ></li>
+                        <li
+                            class="h-3 w-3 border-2 border-red-500 md:hover:bg-red-500 rounded-full cursor-pointer"
+                        ></li>
+                        <li
+                            class="h-3 w-3 border-2 border-yellow-500 md:hover:bg-yellow-500 rounded-full cursor-pointer"
+                        ></li>
+                    </ul>
                 </div>
             </div>
         </div>

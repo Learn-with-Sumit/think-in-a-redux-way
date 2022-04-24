@@ -7,7 +7,7 @@
 <br />
 <p align="center">
     <img src="images/lws-logo.png" alt="Logo" width="80" height="80" />
-    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 2 - Lesson 12 (Task)</a></h3>
+    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 3 - Lesson 1</a></h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -15,20 +15,13 @@
 ## Table of Contents
 
 -   [Get HTML template](#get-html-template)
--   [How to run](#how-to-run)
 -   [Contact](#contact)
 
 <!-- GET HTML TEMPLATE -->
 
 ## Get HTML Template
 
-You can find the raw HTML template of the counter application from the "html_template" folder.
-
-<!-- HOW TO RUN -->
-
-## How to run
-
-Please follow the related video for Task details. You will find the base html template in "html_template" folder.
+You can find the raw HTML template of the todo application from the "html_template" folder.
 
 <!-- CONTACT -->
 
