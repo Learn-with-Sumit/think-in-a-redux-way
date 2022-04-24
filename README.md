@@ -7,7 +7,7 @@
 <br />
 <p align="center">
     <img src="images/lws-logo.png" alt="Logo" width="80" height="80" />
-    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 2 - Lesson 11</a></h3>
+    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 2 - Lesson 12 (Task)</a></h3>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -28,31 +28,7 @@ You can find the raw HTML template of the counter application from the "html_tem
 
 ## How to run
 
-Please follow the below instructions to run this branch in your machine:
-
-1. Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
-
-2. Clone this repository -
-    ```sh
-    git clone https://github.com/learnwithsumit/think-in-a-redux-way
-    ```
-3. Checkout/switch to branch 2.11
-
-```sh
-git checkout 2.11
-```
-
-4. Install node_modules -
-
-```sh
-npm install
-```
-
-5. Run application and you should see it live in your browser - http://localhost:3000
-
-```sh
-npm start
-```
+Please follow the related video for Task details. You will find the base html template in "html_template" folder.
 
 <!-- CONTACT -->
 
