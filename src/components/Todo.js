@@ -43,7 +43,11 @@ export default function Todo({ todo }) {
                 )}
             </div>
 
-            <div className="select-none flex-1 line-through">{text}</div>
+            <div
+                className={`select-none flex-1 ${completed && "line-through"}`}
+            >
+                {text}
+            </div>
 
             <div
                 className={`flex-shrink-0 h-4 w-4 rounded-full border-2 ml-auto cursor-pointer hover:bg-green-500 border-green-500 ${
