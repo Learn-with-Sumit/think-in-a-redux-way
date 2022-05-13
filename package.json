@@ -19,6 +19,7 @@
   "homepage": "https://github.com/learnwithsumit/think-in-a-redux-way#readme",
   "dependencies": {
     "node-fetch": "^2.6.7",
-    "redux": "^4.2.0"
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1"
   }
 }
