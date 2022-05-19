@@ -19,6 +19,7 @@
   "homepage": "https://github.com/learnwithsumit/think-in-a-redux-way#readme",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
+    "immer": "^9.0.14",
     "redux": "^4.2.0"
   }
 }
