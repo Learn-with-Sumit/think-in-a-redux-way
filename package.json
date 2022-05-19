@@ -1,0 +1,23 @@
+{
+  "name": "think-in-a-redux-way",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/learnwithsumit/think-in-a-redux-way.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/learnwithsumit/think-in-a-redux-way/issues"
+  },
+  "homepage": "https://github.com/learnwithsumit/think-in-a-redux-way#readme",
+  "dependencies": {
+    "redux": "^4.2.0"
+  }
+}
