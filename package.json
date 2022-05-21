@@ -20,7 +20,9 @@
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "immer": "^9.0.14",
+    "node-fetch": "^2.6.7",
     "redux": "^4.2.0",
-    "redux-logger": "^3.0.6"
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.1"
   }
 }
