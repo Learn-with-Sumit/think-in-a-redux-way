@@ -1,0 +1,14 @@
+{
+    "name": "lws-json-server-expense-tracker",
+    "description": "Example in memory Expense Tracker api with json-server by Learn with Sumit",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "json-server --watch db_transactions.json --no-cors true --port 9000"
+    },
+    "dependencies": {
+        "json-server": "^0.17.0"
+    },
+    "keywords": [],
+    "author": "Sumit Saha, Learn with Sumit"
+}
