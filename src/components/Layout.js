@@ -1,15 +1,15 @@
 export default function Layout({ children }) {
     return (
         <div className="App">
-            <div class="header">
+            <div className="header">
                 <h1>Expense Tracker</h1>
             </div>
 
-            <div class="main">
-                <div class="container">{children}</div>
+            <div className="main">
+                <div className="container">{children}</div>
             </div>
 
-            <div class="footer">&copy;2022 Learn with Sumit</div>
+            <div className="footer">&copy;2022 Learn with Sumit</div>
         </div>
     );
 }

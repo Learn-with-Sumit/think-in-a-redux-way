@@ -1,6 +1,6 @@
 export default function Balance() {
     return (
-        <div class="top_card">
+        <div className="top_card">
             <p>Your Current Balance</p>
             <h3>
                 <span>৳</span>

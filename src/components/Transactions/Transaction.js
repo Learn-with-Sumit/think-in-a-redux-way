@@ -1,14 +1,18 @@
 export default function Transaction() {
     return (
-        <li class="transaction income">
+        <li className="transaction income">
             <p>Earned this month</p>
-            <div class="right">
+            <div className="right">
                 <p>৳ 100</p>
-                <button class="link">
-                    <img alt="Edit" class="icon" src="./images/edit.svg" />
+                <button className="link">
+                    <img alt="Edit" className="icon" src="./images/edit.svg" />
                 </button>
-                <button class="link">
-                    <img alt="Delete" class="icon" src="./images/delete.svg" />
+                <button className="link">
+                    <img
+                        alt="Delete"
+                        className="icon"
+                        src="./images/delete.svg"
+                    />
                 </button>
             </div>
         </li>
