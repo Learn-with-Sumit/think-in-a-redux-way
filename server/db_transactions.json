@@ -1,34 +1,10 @@
 {
   "transactions": [
     {
-      "name": "Upori income",
-      "amount": "10000",
-      "type": "income",
-      "id": 1
-    },
-    {
-      "name": "Test 2",
-      "amount": 100,
+      "name": "Pendrive",
+      "amount": "500",
       "type": "expense",
-      "id": 2
-    },
-    {
-      "name": "Salary from facebook",
-      "amount": "500000",
-      "type": "income",
       "id": 3
-    },
-    {
-      "name": "Family Expense",
-      "type": "expense",
-      "amount": 20000,
-      "id": 4
-    },
-    {
-      "name": "Family Expense",
-      "type": "expense",
-      "amount": 20000,
-      "id": 5
     }
   ]
 }
