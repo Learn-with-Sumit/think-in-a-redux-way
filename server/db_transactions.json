@@ -5,6 +5,18 @@
       "amount": "500",
       "type": "expense",
       "id": 3
+    },
+    {
+      "name": "Salary",
+      "type": "income",
+      "amount": 20000,
+      "id": 4
+    },
+    {
+      "name": "upori income",
+      "type": "income",
+      "amount": 20000,
+      "id": 5
     }
   ]
 }
