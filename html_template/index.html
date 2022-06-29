@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="./assets/favicon.png" />
+        <title>Home</title>
+        <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav class="bg-slate-100 shadow-md">
+            <div
+                class="max-w-7xl mx-auto px-5 lg:px-0 flex justify-between py-3 items-center"
+            >
+                <a href="index.html">
+                    <img
+                        class="h-10"
+                        src="./assets/lws.svg"
+                        alt="Learn with Sumit"
+                    />
+                </a>
+                <a
+                    href="add-video.html"
+                    class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-indigo-500"
+                >
+                    + Add Video
+                </a>
+            </div>
+        </nav>
+
+        <!-- Video Grid -->
+        <section class="pt-6 pb-20 min-h-[calc(100vh_-_157px)]">
+            <div
+                class="grid grid-cols-12 gap-4 max-w-7xl mx-auto px-5 lg:px-0 min-h-[300px]"
+            >
+                <!-- single video -->
+                <div
+                    class="col-span-12 sm:col-span-6 md:col-span-3 duration-300 hover:scale-[1.03]"
+                >
+                    <div class="w-full flex flex-col">
+                        <div class="relative">
+                            <a href="video.html">
+                                <img
+                                    src="https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg"
+                                    class="w-full h-auto"
+                                    alt="Some video title"
+                                />
+                            </a>
+
+                            <p
+                                class="absolute right-2 bottom-2 bg-gray-900 text-gray-100 text-xs px-1 py"
+                            >
+                                12:10
+                            </p>
+                        </div>
+
+                        <div class="flex flex-row mt-2 gap-2">
+                            <a href="#" class="shrink-0">
+                                <img
+                                    src="./assets/author.png"
+                                    class="rounded-full h-6 w-6"
+                                    alt="Learn with Sumit"
+                                />
+                            </a>
+
+                            <div clas="flex flex-col">
+                                <a href="video.html">
+                                    <p
+                                        class="text-slate-900 text-sm font-semibold"
+                                    >
+                                        Video title
+                                    </p>
+                                </a>
+                                <a
+                                    class="text-gray-400 text-xs mt-2 hover:text-gray-600"
+                                    href="#"
+                                >
+                                    Learn with Sumit
+                                </a>
+                                <p class="text-gray-400 text-xs mt-1">
+                                    200 views . May 3, 2022
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- error section
+                    <div class="col-span-12">some error happened</div> -->
+            </div>
+        </section>
+
+        <!-- footer -->
+        <section class="pt-6">
+            <div
+                class="max-w-7xl mx-auto px-5 py-6 lg:px-0 flex justify-between gap-2 border-t text-sm text-slate-400"
+            >
+                <div>Copyright 2022 Learn with Sumit.</div>
+                <div>
+                    <a
+                        href="https://youtube.com/learnwithsumit"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        YouTube Channel
+                    </a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="./assets/favicon.png" />
+        <title>Add Video</title>
+        <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav class="bg-slate-100 shadow-md">
+            <div
+                class="max-w-7xl mx-auto px-5 lg:px-0 flex justify-between py-3 items-center"
+            >
+                <a href="index.html">
+                    <img
+                        class="h-10"
+                        src="./assets/lws.svg"
+                        alt="Learn with Sumit"
+                    />
+                </a>
+                <a
+                    href="add-video.html"
+                    class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-indigo-500"
+                >
+                    + Add Video
+                </a>
+            </div>
+        </nav>
+
+        <!-- Add Video Form -->
+        <section class="pt-6 pb-20 min-h-[calc(100vh_-_157px)]">
+            <div class="max-w-7xl mx-auto px-5 lg:px-0">
+                <div class="w-full">
+                    <div class="px-4 sm:px-0 pb-4">
+                        <h3 class="text-lg font-medium leading-6 text-gray-900">
+                            Add new video
+                        </h3>
+                        <p class="mt-1 text-sm text-gray-600">
+                            Please fillup the form to add new video
+                        </p>
+                    </div>
+                    <div class="mt-5 md:mt-0 md:col-span-2">
+                        <form action="#" method="POST">
+                            <div class="shadow overflow-hidden sm:rounded-md">
+                                <div class="px-4 py-5 bg-white sm:p-6">
+                                    <div class="grid grid-cols-6 gap-6">
+                                        <div class="col-span-6 sm:col-span-3">
+                                            <label
+                                                for="first-name"
+                                                class="block text-sm font-medium text-gray-700"
+                                                >Title</label
+                                            >
+                                            <input
+                                                type="text"
+                                                name="first-name"
+                                                id="first-name"
+                                                autocomplete="given-name"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                                            />
+                                        </div>
+
+                                        <div class="col-span-6 sm:col-span-3">
+                                            <label
+                                                for="last-name"
+                                                class="block text-sm font-medium text-gray-700"
+                                                >Author</label
+                                            >
+                                            <input
+                                                type="text"
+                                                name="last-name"
+                                                id="last-name"
+                                                autocomplete="family-name"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                                            />
+                                        </div>
+
+                                        <div class="col-span-6">
+                                            <label
+                                                for="about"
+                                                class="block text-sm font-medium text-gray-700"
+                                            >
+                                                Description
+                                            </label>
+                                            <div class="mt-1">
+                                                <textarea
+                                                    id="about"
+                                                    name="about"
+                                                    rows="3"
+                                                    class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
+                                                ></textarea>
+                                            </div>
+                                            <p
+                                                class="mt-2 text-sm text-gray-500"
+                                            >
+                                                Brief description for your video
+                                            </p>
+                                        </div>
+
+                                        <div class="col-span-6">
+                                            <label
+                                                for="email-address"
+                                                class="block text-sm font-medium text-gray-700"
+                                                >YouTube Video Link</label
+                                            >
+                                            <input
+                                                type="text"
+                                                name="email-address"
+                                                id="email-address"
+                                                autocomplete="email"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                                            />
+                                        </div>
+
+                                        <div class="col-span-6">
+                                            <label
+                                                for="street-address"
+                                                class="block text-sm font-medium text-gray-700"
+                                                >Thumbnail link</label
+                                            >
+                                            <input
+                                                type="text"
+                                                name="street-address"
+                                                id="street-address"
+                                                autocomplete="street-address"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                                            />
+                                        </div>
+
+                                        <div
+                                            class="col-span-6 sm:col-span-6 lg:col-span-2"
+                                        >
+                                            <label
+                                                for="city"
+                                                class="block text-sm font-medium text-gray-700"
+                                                >Date</label
+                                            >
+                                            <input
+                                                type="text"
+                                                name="city"
+                                                id="city"
+                                                autocomplete="address-level2"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                                            />
+                                        </div>
+
+                                        <div
+                                            class="col-span-6 sm:col-span-3 lg:col-span-2"
+                                        >
+                                            <label
+                                                for="region"
+                                                class="block text-sm font-medium text-gray-700"
+                                                >Duration</label
+                                            >
+                                            <input
+                                                type="text"
+                                                name="region"
+                                                id="region"
+                                                autocomplete="address-level1"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                                            />
+                                        </div>
+
+                                        <div
+                                            class="col-span-6 sm:col-span-3 lg:col-span-2"
+                                        >
+                                            <label
+                                                for="postal-code"
+                                                class="block text-sm font-medium text-gray-700"
+                                                >Views</label
+                                            >
+                                            <input
+                                                type="text"
+                                                name="postal-code"
+                                                id="postal-code"
+                                                autocomplete="postal-code"
+                                                class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div
+                                    class="px-4 py-3 bg-gray-50 text-right sm:px-6"
+                                >
+                                    <button
+                                        type="submit"
+                                        class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-indigo-500"
+                                    >
+                                        Save
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <section class="pt-6">
+            <div
+                class="max-w-7xl mx-auto px-5 py-6 lg:px-0 flex justify-between gap-2 border-t text-sm text-slate-400"
+            >
+                <div>Copyright 2022 Learn with Sumit.</div>
+                <div>
+                    <a
+                        href="https://youtube.com/learnwithsumit"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        YouTube Channel
+                    </a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

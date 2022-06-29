@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="./assets/favicon.png" />
+        <title>Video</title>
+        <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+    </head>
+    <body>
+        <!-- navigation -->
+        <nav class="bg-slate-100 shadow-md">
+            <div
+                class="max-w-7xl mx-auto px-5 lg:px-0 flex justify-between py-3 items-center"
+            >
+                <a href="index.html">
+                    <img
+                        class="h-10"
+                        src="./assets/lws.svg"
+                        alt="Learn with Sumit"
+                    />
+                </a>
+                <a
+                    href="add-video.html"
+                    class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-indigo-500"
+                >
+                    + Add Video
+                </a>
+            </div>
+        </nav>
+
+        <section class="pt-6 pb-20 min-h-[calc(100vh_-_157px)]">
+            <div class="mx-auto max-w-7xl px-2 pb-20 min-h-[400px]">
+                <div class="grid grid-cols-3 gap-2 lg:gap-8">
+                    <div class="col-span-full w-full space-y-8 lg:col-span-2">
+                        <!-- video player -->
+                        <iframe
+                            width="100%"
+                            class="aspect-video"
+                            src="https://www.youtube-nocookie.com/embed/6O4s7v28nlw"
+                            title="Some video title"
+                            frameborder=""
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+
+                        <!-- video description -->
+                        <div>
+                            <h1
+                                class="text-lg font-semibold tracking-tight text-slate-800"
+                            >
+                                Some video title
+                            </h1>
+                            <div
+                                class="pb-4 flex items-center space-between border-b"
+                            >
+                                <h2
+                                    class="text-sm leading-[1.7142857] text-slate-600 w-full"
+                                >
+                                    Uploaded on 23 Nov 2022
+                                </h2>
+
+                                <!-- delete/edit -->
+                                <div class="flex gap-10 w-48">
+                                    <div class="flex gap-1">
+                                        <div class="shrink-0">
+                                            <img
+                                                class="w-5 block"
+                                                src="./assets/edit.svg"
+                                                alt="Edit"
+                                            />
+                                        </div>
+                                        <a
+                                            href="add-video.html"
+                                            class="text-sm leading-[1.7142857] text-slate-600"
+                                        >
+                                            Edit
+                                        </a>
+                                    </div>
+                                    <div class="flex gap-1">
+                                        <div class="shrink-0">
+                                            <img
+                                                class="w-5 block"
+                                                src="./assets/delete.svg"
+                                                alt="Delete"
+                                            />
+                                        </div>
+                                        <div
+                                            class="text-sm leading-[1.7142857] text-slate-600 cursor-pointer"
+                                        >
+                                            Delete
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div
+                                class="mt-4 text-sm text-[#334155] dark:text-slate-400"
+                            >
+                                Some video description here
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- related videos -->
+                    <div
+                        class="col-span-full lg:col-auto max-h-[570px] overflow-y-auto"
+                    >
+                        <!-- single related video -->
+                        <div class="w-full flex flex-row gap-2 mb-4">
+                            <div
+                                class="relative w-[168px] h-[94px] flex-none duration-300 hover:scale-[1.03]"
+                            >
+                                <a href="video.html">
+                                    <img
+                                        src="https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg"
+                                        class="object-cover"
+                                        alt="Some video title"
+                                    />
+                                </a>
+                                <p
+                                    class="absolute right-2 bottom-2 bg-gray-900 text-gray-100 text-xs px-1 py"
+                                >
+                                    12:10
+                                </p>
+                            </div>
+
+                            <div class="flex flex-col w-full">
+                                <a href="#">
+                                    <p
+                                        class="text-slate-900 text-sm font-semibold"
+                                    >
+                                        Some video title
+                                    </p>
+                                </a>
+                                <a
+                                    class="text-gray-400 text-xs mt-2 hover:text-gray-600"
+                                    href="#"
+                                >
+                                    Learn with Sumit
+                                </a>
+                                <p class="text-gray-400 text-xs mt-1">
+                                    100K views . 23 Oct 2022
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <section class="pt-6">
+            <div
+                class="max-w-7xl mx-auto px-5 py-6 lg:px-0 flex justify-between gap-2 border-t text-sm text-slate-400"
+            >
+                <div>Copyright 2022 Learn with Sumit.</div>
+                <div>
+                    <a
+                        href="https://youtube.com/learnwithsumit"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        YouTube Channel
+                    </a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
