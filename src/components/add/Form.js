@@ -1,3 +1,4 @@
+// import Success from "../ui/Success";
 import TextArea from "../ui/TextArea";
 import TextInput from "../ui/TextInput";
 
@@ -48,6 +49,8 @@ export default function Form() {
                         Save
                     </button>
                 </div>
+
+                {/* <Success message="Video was added successfully" /> */}
             </div>
         </form>
     );

@@ -44,7 +44,10 @@ export default function Description() {
             </div>
 
             <div className="mt-4 text-sm text-[#334155] dark:text-slate-400">
-                Some video description here
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corrupti, ex. Facilis excepturi ratione magnam quia maiores
+                architecto eaque fugiat sit quos ex quod quam praesentium optio
+                eligendi, laborum cupiditate. Quidem.
             </div>
         </div>
     );
