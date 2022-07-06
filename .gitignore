@@ -2,7 +2,6 @@
 
 # dependencies
 /node_modules
-/lws-json-server-todos/node_modules
 /.pnp
 .pnp.js
 
