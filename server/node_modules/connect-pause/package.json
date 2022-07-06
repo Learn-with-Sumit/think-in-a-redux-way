@@ -1,0 +1,19 @@
+{
+    "name": "connect-pause"
+  , "author": "Ariel Flesler <aflesler@gmail.com>"
+  , "version": "0.1.1"
+  , "description": "Connect/Express middleware to simulate latency for debugging"
+  , "keywords": [
+         "connect"
+       , "express"
+       , "pause"
+       , "delay"
+       , "latency"
+    ]
+  , "license": "MIT"
+  , "repository": "git://github.com/flesler/connect-pause"
+  , "main": "./index.js"
+  , "engines": { "node": "*" }
+  , "dependencies": {}
+}
+

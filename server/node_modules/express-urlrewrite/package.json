@@ -1,0 +1,36 @@
+{
+  "name": "express-urlrewrite",
+  "description": "URL rewrite middleware for express",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kapouer/express-urlrewrite"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test nyc mocha"
+  },
+  "version": "1.4.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "express",
+    "middleware",
+    "rewrite",
+    "redirect",
+    "url"
+  ],
+  "files": [
+    "index.*"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "debug": "*",
+    "path-to-regexp": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "sinon": "^7.2.2",
+    "sinon-chai": "^3.3.0"
+  }
+}
