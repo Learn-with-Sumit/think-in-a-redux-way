@@ -11,6 +11,7 @@ export default function App() {
                 <Counter />
                 <Counter />
                 <Counter />
+                <Counter />
             </div>
         </div>
     );
