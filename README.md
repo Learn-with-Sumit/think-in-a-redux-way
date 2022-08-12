@@ -1,46 +1,109 @@
-# Getting Started with Create React App and Redux
+[![Youtube][youtube-shield]][youtube-url]
+[![Facebook][facebook-shield]][facebook-group-url]
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+    <img src="https://avatars.githubusercontent.com/u/73503432?v=4" alt="Logo" width="80" height="80" />
+    <h3 align="center"><a href="https://learnwithsumit.com/courses/think-in-a-redux-way/setup-routing">THINK IN A REDUX WAY - MODULE 6 - LESSON 4 </a></h3>
+</p>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+## ![tableOfContent][tableofcontent-shield] Table of Contents
 
-### `npm start`
+| HTML TEMPLATE                            | SERVER TEMPLATE                              | CODE RUN                   | CONTACT                    |
+| ---------------------------------------- | -------------------------------------------- | -------------------------- | -------------------------- |
+| [Get HTML template](#-get-html-template) | [Get SERVER template](#-get-server-template) | [How to run](#-how-to-run) | [Contact us](#-contact-us) |
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- GET HTML TEMPLATE -->
 
-### `npm test`
+## ![htmlIcon][htmlicon-shield] Get HTML Template
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You can find the raw HTML template of the video application from the "html_template" folder.
 
-### `npm run build`
+<!-- GET SERVER TEMPLATE -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ![serverIcon][servericon-shield] Get SERVER Template
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can find the raw SERVER template of the video application from the "server" folder.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- HOW TO RUN -->
 
-### `npm run eject`
+## ![rocketIcon][rocketicon-shield] How to run
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Please follow the below instructions to run this branch in your machine:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Clone this repository -
+   ```sh
+   git clone https://github.com/Learn-with-Sumit/think-in-a-redux-way.git
+   ```
+3. Go to the cloned project directory
+   ```sh
+   cd think-in-a-redux-way
+   ```
+4. Checkout/switch to branch 6.4
+   ```sh
+   git checkout 6.4
+   ```
+5. Install dependencies
+   ```sh
+   npm i
+   ```
+6. Install VS Code [Live Server plugin](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) & start the server.
+   ```sh
+   npm start
+   ```
+7. Your app should be available in http://localhost:3000
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br>
 
-## Learn More
+Please follow the below instructions to run server in your machine:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Go to the server directory
+   ```sh
+   cd server
+   ```
+2. Install dependencies
+   ```sh
+   npm i
+   ```
+3. Start the server
+   ```sh
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
+
+<!-- CONTACT  -->
+
+## ![contactIcon][contacticon-shield] Contact us
+
+[![Facebook][facebook-shield]][facebook-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+[![Instagram][instagram-shield]][instagram-url]
+[![mail][mail-shield]][mail-url]
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[youtube-shield]: https://img.shields.io/badge/-Youtube-black.svg?style=flat-square&logo=youtube&color=555&logoColor=white
+[youtube-url]: https://youtube.com/LearnwithSumit
+[facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=555&logoColor=white
+[facebook-url]: https://facebook.com/letslearnwithsumit
+[facebook-group-url]: https://facebook.com/groups/learnwithsumit
+[instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=flat-square&logo=instagram&color=555&logoColor=white
+[instagram-url]: https://instagram.com/learnwithsumit
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/company/learnwithsumit
+[thumbnail-shield]: https://i.ibb.co/d6hxnvd/Screenshot-50.png
+[mail-shield]: https://img.shields.io/badge/%F0%9F%93%A7%20Email-support%40learnwithsumit.com-lightgray
+[mail-url]: mailto:support@learnwithsumit.com
+[tableofcontent-shield]: https://img.icons8.com/external-flatart-icons-flat-flatarticons/28/undefined/external-direction-business-and-teamwork-flatart-icons-flat-flatarticons.png
+[htmlicon-shield]: https://img.icons8.com/external-flaticons-flat-flat-icons/28/undefined/external-html-computer-programming-flaticons-flat-flat-icons.png
+[servericon-shield]: https://img.icons8.com/external-itim2101-flat-itim2101/28/undefined/external-server-network-technology-itim2101-flat-itim2101-2.png
+[rocketicon-shield]: https://img.icons8.com/arcade/30/undefined/experimental-rocket-arcade.png
+[contacticon-shield]: https://img.icons8.com/external-flaticons-lineal-color-flat-icons/28/undefined/external-support-communication-media-flaticons-lineal-color-flat-icons.png
