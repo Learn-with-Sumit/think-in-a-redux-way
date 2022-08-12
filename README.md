@@ -1,54 +1,37 @@
-[![Youtube][youtube-shield]][youtube-url]
-[![Facebook][facebook-shield]][facebook-url]
-[![Instagram][instagram-shield]][instagram-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+দেখতে দেখতে চলে আসলো সহজ একটি এসাইনমেন্ট। এবারের এসাইনমেন্ট আমরা করবো React-redux দিয়ে। এসাইনমেন্ট শুরু করার আগে আপনি পার্ট বাই পার্ট চিন্তা করেন তাহলে দেখবেন এসাইনমেন্ট অনেক সহজ হয়ে গেছে। এসাইনমেন্টের প্রতিটা ফিচার এর জন্য আলাদা আলাদা নাম্বার আছে।
 
-<!-- PROJECT LOGO -->
-<br />
-<p align="center">
-    <img src="images/lws-logo.png" alt="Logo" width="80" height="80" />
-    <h3 align="center"><a href="https://github.com/learnwithsumit/think-in-a-redux-way">Think in a Redux way - Module 2 - Lesson 12 (Task)</a></h3>
-</p>
+# ১) এসাইনমেন্টে কি কি করতে হবে:
 
-<!-- TABLE OF CONTENTS -->
+১.১) প্রজেক্টটি React-redux দিয়ে করতে হবে।
 
-## Table of Contents
+১.২) বাম পাশে প্রোডাক্ট লিস্ট থাকবে এবং তা Redux state দিয়ে মেনেজ করতে হবে।
 
--   [Get HTML template](#get-html-template)
--   [How to run](#how-to-run)
--   [Contact](#contact)
+১.৩) প্রতিটি প্রডাক্টের দাম UI তে দেওয়া আছে। যখন আপনি বাম সাইড ও ডান সাইডের কার্টে থাকা প্লাস বাটিনে ক্লিক করবেন তখন প্রোডাক্টের সংখ্যা এবং দাম অনুযায়ী ডান সাইডের কার্ট আপডেট হবে।
 
-<!-- GET HTML TEMPLATE -->
+১.৪) বাম পাশের প্রোডাক্ট লিস্টে প্রতিটি প্রোডাক্টের পাশে কোয়ান্টিটি বলে দেওয়া আছে আপনি এর বেশি ঐ প্রোডাক্ট কিনতে পারবেন না। তার মানে আপনাকে ভ্যালিডেশন করতে হবে।
 
-## Get HTML Template
+## কিভাবে সাবমিট করবেন:
 
-You can find the raw HTML template of the counter application from the "html_template" folder.
+সবচেয়ে সহজে বুঝার জন্য [এই ভিডিওটি](https://learnwithsumit.com/courses/think-in-a-redux-way/how-to-submit-assignment) দেখে ফেলুন।
 
-<!-- HOW TO RUN -->
+এসাইনমেন্টে আপনাকে মাত্র দুইটা জিনিস সাবমিট করতে হবে। সাবমিট একবারই করতে পারবেন তাই ভালো করে দেখে সাবমিট করবেন।
 
-## How to run
+২.১) **GitHub private repository link:** অবশ্যই সঠিক গিটহাব রিপোজিটরি লিংক দিতে হবে। ভুলে অন্য কোনো লিংক দিলে আপনি এসাইনমেন্টের মার্ক পাবেন না তাই সাবমিট করার আগে নিউ ট্যাবে লিংক ওপেন করে চেক করে নিবেন সঠিক লিংক জমা দিচ্ছেন কিনা।
 
-Please follow the related video for Task details. You will find the base html template in "html_template" folder.
+২.২) **Live site link:** নেটলিফাইতে সাইট হোস্ট করে সাইটের লাইভ লিংক দিতে হবে। ভুলে অন্য কোনো লিংক দিলে আপনি এসাইনমেন্টের মার্ক পাবেন না তাই সাবমিট করার আগে নিউ ট্যাবে লিংক ওপেন করে চেক করে নিবেন সঠিক লিংক জমা দিচ্ছেন কিনা। নেটলিফাইতে কি ভাবে হোস্ট করতে হয় তা আপনি না জানলে [এইখানে ক্লিক](https://learnwithsumit.com/courses/think-in-a-redux-way/how-to-submit-assignment) করে দেখে নিতে পারেন।
 
-<!-- CONTACT -->
+## GitHub private repository কিভাবে তৈরি করবেন:
 
-## Contact
+Github Private repositoty তৈরি করতে [এইখানে ক্লিক করুন](https://classroom.github.com/a/lLTvVpmd) অথবা ব্রাউজারে এই লিংকে **https://classroom.github.com/a/lLTvVpmd** ভিজিট করুন। লিংকে যাওয়ার পরে **Accept this assignment** এ ক্লিক করুন। সর্বোচ্চ ১ মিনিট পরে পেইজটি রিলোড দিলে আপনি আপনার রিপোজেটরি লিংক পেয়ে যাবেন। মনে রাখবেন, আপনাকে এই লিংকটি আমাদের প্লাটফর্মে সাবমিট করতে হবে আমাদের কাছে। না বুঝলে উপরে বলা ভিডিও টিউটোরিয়ালটি দেখে নিন।
 
-Support - [support@learnwithsumit.com](mailto:support@learnwithsumit.com)
+## এসাইনমেন্ট মার্কস পলিসি:
 
-Repository Link: [https://github.com/learnwithsumit/think-in-a-redux-way](https://github.com/learnwithsumit/think-in-a-redux-way)
+আপনি নির্ধারিত সময়ে এসাইনমেন্ট জমা দিলে এবং সব কিছু সঠিকভাবে করলে সম্পূর্ণ মার্ক পাবেন। এর পরে জমা দিলে আপনার মার্ক কাটা যাবে। অবশ্যই কোর্স চলাকালিন সময়ে এসাইনমেন্ট জমা দিতে হবে। কোর্সের ডিউরেশন শেষ হয়ে গেলে তার পরে আপনি এসাইনমেন্টে জমা দিলে এসাইনমেন্টের মার্ক নাও পেতে পারেন।
 
-Course Details: [https://learnwithsumit.com/think-in-a-redux-way](https://learnwithsumit.com/think-in-a-redux-way)
+## সাবমিট করার পর কোড চেইঞ্জ:
 
-Youtube Channel: [https://youtube.com/LearnwithSumit](https://youtube.com/LearnwithSumit)
+আপনি ভেবে নিতে পারেন আমি ওয়েবসাইটে সঠিক সময়ে এসাইনমেন্ট সাবমিট করে নিরবে পরে গিটহাবে কোড পুশ করতে থাকবো। আপনার আপনার গিটহাবের সর্বশেষ কমিট দেখলেই বুঝতে পারবো আপনি কখন কোড আপডেট করেছেন। সে অনুযায়ী আমরা আপনার মার্ক কেটে নিবো। তাই এসাইনমেন্ট এর সময় পার হবার পরে আমরা আশা করবো আপনি চালাকি করে আর কোড পুশ করবেন না আপনার রিপোজেটরিতে।
 
-<!-- MARKDOWN LINKS & IMAGES -->
+## এসাইনমেন্ট মার্কস কবে পাবেন:
 
-[youtube-shield]: https://img.shields.io/badge/-Youtube-black.svg?style=flat-square&logo=youtube&color=555&logoColor=white
-[youtube-url]: https://youtube.com/LearnwithSumit
-[facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=555&logoColor=white
-[facebook-url]: https://facebook.com/groups/learnwithsumit
-[instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=flat-square&logo=instagram&color=555&logoColor=white
-[instagram-url]: https://instagram.com/learnwithsumit
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/company/learnwithsumit
+আমরা সর্বোচ্চ ৭ দিনের ভিতরে আপনার এসাইনমেন্টের মার্ক দিয়ে দেওয়ার চেষ্টা করবো। ক্ষেত্র বিশেষে একটু দেরি হতে পারে কারো কারো মার্ক পেতে।
