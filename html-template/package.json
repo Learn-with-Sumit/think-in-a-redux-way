@@ -1,0 +1,17 @@
+{
+  "name": "lws-chat-ui",
+  "version": "1.0.0",
+  "description": "1. Login page / Modal 2. Registration page / Modal 3. Inbox page - left sidebar e user list - right content e messages- 4. Ekta top navigation bar thakbe",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./tailwind.css -o ./dist/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}
