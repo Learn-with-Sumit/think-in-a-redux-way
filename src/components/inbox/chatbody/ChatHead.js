@@ -7,7 +7,6 @@ export default function ChatHead({ avatar, name }) {
                 alt={name}
             />
             <span className="block ml-2 font-bold text-gray-600">{name}</span>
-            <span className="absolute w-3 h-3 bg-green-600 rounded-full left-10 top-3"></span>
         </div>
     );
 }
