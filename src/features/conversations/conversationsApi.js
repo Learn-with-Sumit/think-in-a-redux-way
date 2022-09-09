@@ -33,7 +33,7 @@ export const conversationsApi = apiSlice.injectEndpoints({
                     await cacheDataLoaded;
                     socket.on("conversation", (data) => {
                         updateCachedData((draft) => {
-                            const conversation = draft.find(
+                            const conversation = draft.data.find(
                                 (c) => c.id == data?.data?.id
                             );
 
