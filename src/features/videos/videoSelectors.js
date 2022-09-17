@@ -21,10 +21,11 @@ export const selectMemoizedUnWatchedVideos = createSelector(
     }
 );
 
-export const selectMemoizedFilteredVideos = createSelector(
-    selectAllVideos,
-    (state, filter) => filter,
-    (allVideos, filter) => {
-        return allVideos.filter((v) => v.watched === filter);
-    }
-);
+export const selectMemoizedFilteredVideos = () =>
+    createSelector(
+        selectAllVideos,
+        (state, filter) => filter,
+        (allVideos, filter) => {
+            return allVideos.filter((v) => v.watched === filter);
+        }
+    );
