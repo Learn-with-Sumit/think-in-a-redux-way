@@ -10,7 +10,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## ![tableOfContent][tableofcontent-shield] Table of Contents
+## Table of Contents
 
 | CODE RUN                   | CONTACT                    |
 | -------------------------- | -------------------------- |
@@ -18,7 +18,7 @@
 
 <!-- HOW TO RUN -->
 
-## ![rocketIcon][rocketicon-shield] How to run
+## How to run
 
 Different lessons taught in this [Redux Bangla Course by Learn with Sumit](https://learnwithsumit.com/think-in-a-redux-way), are organized in separate branches with naming convention - [**module number**].[**lesson number**]. For example, **Module-1 Lesson-1** source code is shared in **1.1** branch. Just switch to a branch and follow the corresponding branch's README file instruction.
 
@@ -27,22 +27,22 @@ Please follow the below instructions to run different branches of this repositor
 1. Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
 
 2. Clone this repository -
-   ```sh
-   git clone https://github.com/Learn-with-Sumit/think-in-a-redux-way.git
-   ```
+    ```sh
+    git clone https://github.com/Learn-with-Sumit/think-in-a-redux-way.git
+    ```
 3. Go to the cloned project directory
-   ```sh
-   cd think-in-a-redux-way
-   ```
+    ```sh
+    cd think-in-a-redux-way
+    ```
 4. Checkout/switch to your desired branch. For example to switch to branch 1.1 -
-   ```sh
-   git checkout 1.1
-   ```
+    ```sh
+    git checkout 1.1
+    ```
 5. Follow the corresponding branch's README file instruction to run code.
 
 <!-- CONTACT  -->
 
-## ![contactIcon][contacticon-shield] Contact us
+## Contact us
 
 [![Facebook][facebook-shield]][facebook-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
@@ -63,7 +63,4 @@ Please follow the below instructions to run different branches of this repositor
 [thumbnail-shield]: https://i.ibb.co/d6hxnvd/Screenshot-50.png
 [mail-shield]: https://img.shields.io/badge/%F0%9F%93%A7%20Email-support%40learnwithsumit.com-lightgray
 [mail-url]: mailto:support@learnwithsumit.com
-[tableofcontent-shield]: https://img.icons8.com/external-flatart-icons-flat-flatarticons/28/undefined/external-direction-business-and-teamwork-flatart-icons-flat-flatarticons.png
 [htmlicon-shield]: https://img.icons8.com/external-flaticons-flat-flat-icons/28/undefined/external-html-computer-programming-flaticons-flat-flat-icons.png
-[rocketicon-shield]: https://img.icons8.com/arcade/30/undefined/experimental-rocket-arcade.png
-[contacticon-shield]: https://img.icons8.com/external-flaticons-lineal-color-flat-icons/28/undefined/external-support-communication-media-flaticons-lineal-color-flat-icons.png
