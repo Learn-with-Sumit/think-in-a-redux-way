@@ -1,0 +1,39 @@
+{
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Software Engineer",
+      "type": "Full Time",
+      "salary": "80,000",
+      "deadline": "May 20, 2023"
+    },
+    {
+      "id": "2",
+      "title": "Web Developer",
+      "type": "Remote",
+      "salary": "70,000",
+      "deadline": "April 12, 2023"
+    },
+    {
+      "id": "3",
+      "title": "Backend Developer",
+      "type": "Full Time",
+      "salary": "90,000",
+      "deadline": "June 25, 2023"
+    },
+    {
+      "id": "4",
+      "title": "Frontend Developer",
+      "type": "Remote",
+      "salary": "75,000",
+      "deadline": "July 2, 2023"
+    },
+    {
+      "id": "5",
+      "title": "DevOps Engineer",
+      "type": "Full Time",
+      "salary": "120,000",
+      "deadline": "May 2, 2023"
+    }
+  ]
+}

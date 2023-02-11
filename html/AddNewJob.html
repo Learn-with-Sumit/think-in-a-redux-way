@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LWS Job Finder</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  <nav class="max-w-[90rem] mx-auto py-4 fixed top-0 w-full left-1/2 -translate-x-1/2 px-4 md:px-0">
+    <img src="./images/logo.svg" />
+  </nav>
+  <div class="max-w-[90rem] mx-auto px-4 sm:px-6 md:px-8">
+    <div class="sidebar">
+      <nav>
+        <ul class="space-y-4">
+          <li>
+            <a href="/jobs" class="main-menu menu-active lws-allJob">
+              <i class="fa-solid fa-briefcase"></i>
+              <span> All Available Jobs</span>
+            </a>
+            <ul class="space-y-6 lg:space-y-2 ">
+              <li>
+                <a class="sub-menu" href="/jobs/internship">
+                  <i class="fa-solid fa-stop !text-[#FF5757]"></i>
+                  Internship
+                </a>
+              </li>
+              <li>
+                <a class="sub-menu" href="/jobs/fulltime">
+                  <i class="fa-solid fa-stop !text-[#FF8A00]"></i>
+                  Full Time
+                </a>
+              </li>
+              <li>
+                <a class="sub-menu" href="/jobs/remote">
+                  <i class="fa-solid fa-stop !text-[#56E5C4]"></i>
+                  Remote
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="/jobs" class="main-menu lws-AddJob">
+              <i class="fa-solid fa-file-circle-plus"></i>
+              <span>Add NewJob</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="lg:pl-[14rem] mt-[5.8125rem]">
+      <main class="max-w-3xl rounded-lg mx-auto relative z-20 p-10 xl:max-w-none bg-[#1E293B]">
+        <h1 class="mb-10 text-center section-title">Add New Job</h1>
+
+        <div class="max-w-3xl mx-auto">
+          <form class="space-y-6">
+            <div class="fieldContainer">
+              <label for="lwsJobTitle" class="text-sm font-medium text-slate-300">Job Title</label>
+              <select id="lwsJobTitle" name="lwsJobTitle" autocomplete="lwsJobTitle" required>
+                <option value="" hidden selected>Select Job</option>
+                <option>Software Engineer</option>
+                <option>Software Developer</option>
+                <option>Full Stack Developer</option>
+                <option>MERN Stack Developer</option>
+                <option>DevOps Engineer</option>
+                <option>QA Engineer</option>
+                <option>Product Manager</option>
+                <option>Social Media Manager</option>
+                <option>Senior Executive</option>
+                <option>Junior Executive</option>
+                <option>Android App Developer</option>
+                <option>IOS App Developer</option>
+                <option>Frontend Developer</option>
+                <option>Frontend Engineer</option>
+              </select>
+            </div>
+            <div class="fieldContainer">
+              <label for="lwsJobType">Job Type</label>
+              <select id="lwsJobType" name="lwsJobType" autocomplete="lwsJobType" required>
+                <option value="" hidden selected>Select Job Type</option>
+                <option>Full Time</option>
+                <option>Internship</option>
+                <option>Remote</option>
+              </select>
+            </div>
+
+            <div class="fieldContainer">
+              <label for="lwsJobSalary">Salary</label>
+              <div class="flex border rounded-md shadow-sm border-slate-600">
+                <span class="input-tag">BDT</span>
+                <input type="number" name="lwsJobSalary" id="lwsJobSalary" required class="!rounded-l-none !border-0"
+                  placeholder="20,00,000" />
+              </div>
+            </div>
+
+            <div class="fieldContainer">
+              <label for="lwsJobDeadline">Deadline</label>
+              <input type="date" name="lwsJobDeadline" id="lwsJobDeadline" required />
+            </div>
+            <div class="text-right">
+              <input type="submit" value="Save" class="lws-submit cursor-pointer btn btn-primary w-fit">
+            </div>
+          </form>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+
+</html>
