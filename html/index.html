@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LWS Assignment 1 - Scoreboard</title>
+        <link rel="icon" type="image/x-icon" href="./image/favicon.png" />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+
+    <body>
+        <section class="section">
+            <!-- header -->
+            <header class="header">
+                <div class="container">
+                    <div class="header-wrapper">
+                        <img
+                            src="./image/lws-logo 1.svg"
+                            alt="logo"
+                            class="logo"
+                        />
+                        <h1 class="name">Scoreboard</h1>
+                        <h5 class="total">Total</h5>
+                    </div>
+                </div>
+            </header>
+            <!-- matches  -->
+            <div class="all-matches container">
+                <!-- Each form tag is Each row, This will render multiple times on Clicking 'Add Another Match' -->
+                <div class="match">
+                    <div class="wrapper">
+                        <button class="lws-delete">
+                            <img src="./image/delete.svg" alt="" />
+                        </button>
+                        <h3 class="lws-matchName">Match 1</h3>
+                    </div>
+                    <div class="inc-dec">
+                        <form class="incrementForm">
+                            <h4>Increment</h4>
+                            <input
+                                type="number"
+                                name="increment"
+                                class="lws-increment"
+                            />
+                        </form>
+                        <form class="decrementForm">
+                            <h4>Decrement</h4>
+                            <input
+                                type="number"
+                                name="decrement"
+                                class="lws-decrement"
+                            />
+                        </form>
+                    </div>
+                    <div class="numbers">
+                        <h2 class="lws-singleResult">120</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- for adding another matches -->
+            <div class="add_match">
+                <button class="btn lws-addMatch">Add Another Match</button>
+                <button class="lws-reset">
+                    <svg
+                        fill="none"
+                        width="24"
+                        height="24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                        ></path>
+                    </svg>
+                    <span>Reset</span>
+                </button>
+            </div>
+        </section>
+
+        <section class="mask"></section>
+    </body>
+</html>
