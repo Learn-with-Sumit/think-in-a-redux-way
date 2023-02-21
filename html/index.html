@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./main.css" />
+  <title>LWS | Shopping Cart</title>
+  <link rel="stylesheet" href="./styles/output.css" />
+
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="bg-[#171C2A] py-4">
+    <div class="navBar">
+      <a href="index.html">
+        <img src="./images/logo.png" alt="LWS" class="max-w-[140px]" />
+      </a>
+
+      <div class="flex gap-4">
+        <a href="#home" class="navHome" id="lws-home"> Home </a>
+        <a href="cart.html" class="navCart" id="lws-cart">
+          <i class="text-xl fa-sharp fa-solid fa-bag-shopping"></i>
+          <span id="lws-totalCart">0</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar ends -->
+  <main class="py-16">
+    <div class="productWrapper">
+      <!-- products container -->
+      <div class="productContainer" id="lws-productContainer">
+        <!-- product item -->
+        <div class="lws-productCard">
+          <img class="lws-productImage" src="https://i.dummyjson.com/data/products/59/thumbnail.jpg" alt="product" />
+          <div class="p-4 space-y-2">
+            <h4 class="lws-productName">Spring and summershoes</h4>
+            <p class="lws-productCategory">Mens shoes</p>
+            <div class="flex items-center justify-between pb-2">
+              <p class="productPrice">BDT <span class="lws-price">400</span></p>
+              <p class="productQuantity">QTY <span class="lws-quantity">10</span></p>
+            </div>
+            <button class="lws-btnAddToCart">Add To Cart</button>
+          </div>
+        </div>
+        <!-- product item ends -->
+
+        <!-- product item -->
+        <div class="lws-productCard">
+          <img class="lws-productImage" src="https://i.dummyjson.com/data/products/40/thumbnail.jpg" alt="product" />
+          <div class="p-4 space-y-2">
+            <h4 class="lws-productName">Women Winter Clothes</h4>
+            <p class="lws-productCategory">Tops</p>
+            <div class="flex items-center justify-between pb-2">
+              <p class="productPrice">BDT <span class="lws-price">100</span></p>
+              <p class="productQuantity">QTY <span class="lws-quantity">30</span></p>
+            </div>
+            <button class="lws-btnAddToCart">Add To Cart</button>
+          </div>
+        </div>
+        <!-- product item ends -->
+      </div>
+      <!-- products container ends -->
+      <div>
+        <!-- Product Input Form -->
+        <div class="formContainer">
+          <h4 class="formTitle">Add New Product</h4>
+          <form class="space-y-4 text-[#534F4F]" id="lws-addProductForm">
+            <!-- product name -->
+            <div class="space-y-2">
+              <label for="name">Product Name</label>
+              <input class="addProductInput" id="lws-inputName" type="text" id="name" required />
+            </div>
+            <!-- product category -->
+            <div class="space-y-2">
+              <label for="category">Category</label>
+              <input class="addProductInput" id="lws-inputCategory" type="text" id="category" required />
+            </div>
+            <!-- product image url -->
+            <div class="space-y-2">
+              <label for="image">Image Url</label>
+              <input class="addProductInput" id="lws-inputImage" type="text" id="image" required />
+            </div>
+            <!-- price & quantity container -->
+            <div class="grid grid-cols-2 gap-8 pb-4">
+              <!-- price -->
+              <div class="space-y-2">
+                <label for="price">Price</label>
+                <input class="addProductInput" type="number" id="lws-inputPrice" required />
+              </div>
+              <!-- quantity -->
+              <div class="space-y-2">
+                <label for="quantity">Quantity</label>
+                <input class="addProductInput" type="number" id="lws-inputQuantity" required />
+              </div>
+            </div>
+            <!-- submit button -->
+            <button type="submit" id="lws-inputSubmit" class="submit">Add Product</button>
+          </form>
+        </div>
+        <!-- Product Input Form Ends -->
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
+
+<!-- FE877B -->
