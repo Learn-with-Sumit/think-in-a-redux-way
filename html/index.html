@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./main.css" />
+  <title>LWS | BLOG</title>
+</head>
+
+<body>
+  <!-- navbar start  -->
+  <nav class="py-4 border-b">
+    <div class="navbar-container">
+      <!-- logo -->
+      <div class="logo">
+        <a href="index.html">
+          <img src="./images/LWSBlog.svg" alt="search" />
+        </a>
+      </div>
+      <!-- auth buttons , This will nonfunctional, just for nice looking -->
+      <div class="auth-buttons">
+        <button class="btn btn-primary">sign in</button>
+        <button class="btn btn-outline">sign up</button>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar end  -->
+
+  <!-- main -->
+  <section class="wrapper">
+    <aside>
+      <div class="sidebar-items">
+        <div class="sidebar-content">
+          <h4>Sort</h4>
+          <select name="sort" id="lws-sort" class="w-full max-w-[150px] border-2 rounded-md text-gray-500">
+            <option value="">Default</option>
+            <option value="newest">Newest</option>
+            <option value="most_liked">Most Liked</option>
+          </select>
+        </div>
+        <div class="sidebar-content">
+          <h4>Filter</h4>
+          <div class="radio-group">
+            <!-- handle filter on button click -->
+            <div>
+              <input type="radio" name="filter" id="lws-all" checked class="radio" />
+              <label for="lws-all">All</label>
+            </div>
+            <div>
+              <input type="radio" name="filter" id="lws-saved" class="radio" />
+              <label for="lws-saved">Saved</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <!-- posts container  -->
+    <main class="post-container" id="lws-postContainer">
+      <!-- single post -->
+      <div class="lws-card">
+        <a href="post.html">
+          <img src="./images/git.webp" class="lws-card-image" alt="" />
+        </a>
+        <div class="p-4">
+          <div class="lws-card-header">
+            <p class="lws-publishedDate">2023-05-01</p>
+            <p class="lws-likeCount"><i class="fa-regular fa-thumbs-up"></i>100</p>
+          </div>
+          <a href="post.html" class="lws-postTitle"> Top Github Alternatives </a>
+          <div class="lws-tags"><span>#python,</span> <span>#tech,</span> <span>#git</span></div>
+          <!-- Show this element if post is saved -->
+          <div class="flex gap-2 mt-4">
+            <span class="lws-badge"> Saved </span>
+          </div>
+          <!-- Show this element if post is saved Ends -->
+        </div>
+      </div>
+      <!-- Single Post Ends -->
+
+      <!-- single post -->
+      <div class="lws-card">
+        <a href="post.html">
+          <img src="./images/git.webp" class="lws-card-image" alt="Top Github Alternatives" />
+        </a>
+        <div class="p-4">
+          <div class="lws-card-header">
+            <p class="lws-publishedDate">2023-05-01</p>
+            <p class="lws-likeCount"><i class="fa-regular fa-thumbs-up"></i>100</p>
+          </div>
+          <a href="post.html" class="lws-postTitle"> Top Github Alternatives </a>
+          <div class="lws-tags"><span>#python,</span> <span>#tech,</span> <span>#git</span></div>
+          <!-- Show this element if post is saved -->
+          <div class="flex gap-2 mt-4">
+            <span class="lws-badge"> Saved </span>
+          </div>
+          <!-- Show this element if post is saved Ends -->
+        </div>
+      </div>
+      <!-- Single Post Ends -->
+
+    </main>
+    <!-- posts container ends -->
+  </section>
+</body>
+
+</html>
