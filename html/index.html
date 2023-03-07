@@ -22,25 +22,25 @@
             <nav>
                 <ul class="space-y-4">
                     <li>
-                        <a href="/jobs" class="main-menu menu-active lws-allJob">
+                        <a href="/jobs" class="main-menu menu-active" id="lws-alljobs-menu">
                             <i class="fa-solid fa-briefcase"></i>
                             <span> All Available Jobs</span>
                         </a>
                         <ul class="space-y-6 lg:space-y-2 ">
                             <li>
-                                <a class="sub-menu" href="/jobs/internship">
+                                <a class="sub-menu" href="/jobs/internship" id="lws-internship-menu">
                                     <i class="fa-solid fa-stop !text-[#FF5757]"></i>
                                     Internship
                                 </a>
                             </li>
                             <li>
-                                <a class="sub-menu" href="/jobs/fulltime">
+                                <a class="sub-menu" href="/jobs/fulltime" id="lws-fulltime-menu">
                                     <i class="fa-solid fa-stop !text-[#FF8A00]"></i>
                                     Full Time
                                 </a>
                             </li>
                             <li>
-                                <a class="sub-menu" href="/jobs/remote">
+                                <a class="sub-menu" href="/jobs/remote" id="lws-remote-menu">
                                     <i class="fa-solid fa-stop !text-[#56E5C4]"></i>
                                     Remote
                                 </a>
@@ -48,7 +48,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="/jobs" class="main-menu lws-AddJob">
+                        <a href="/jobs" class="main-menu" id="lws-addJob-menu">
                             <i class="fa-solid fa-file-circle-plus"></i>
                             <span>Add NewJob</span>
                         </a>
@@ -59,7 +59,7 @@
         <div class="lg:pl-[14rem]  mt-[5.8125rem]">
             <main class="max-w-3xl rounded-lg  mx-auto relative z-20 p-10 xl:max-w-none bg-[#1E293B]">
                 <div class="md:flex space-y-2 md:space-y-0 justify-between mb-10 ">
-                    <h1 class="section-title">All Available Jobs</h1>
+                    <h1 class="lws-section-title">All Available Jobs</h1>
                     <div class="flex gap-4">
                         <div class="search-field group flex-1">
                             <i class="fa-solid fa-magnifying-glass search-icon group-focus-within:text-blue-500"></i>
@@ -73,9 +73,9 @@
                     </div>
                 </div>
 
-                <div class="jobs-list ">
+                <div class="jobs-list">
                     <!-- Single Job 1-->
-                    <div class="job">
+                    <div class="lws-single-job">
                         <div class="flex-1 min-w-0">
                             <h2 class="lws-title">Back End Developer</h2>
                             <div class="job-footers">
@@ -90,7 +90,7 @@
                                 </div>
                                 <div class="lws-deadline">
                                     <i class="fa-regular fa-calendar text-slate-400 text-lg mr-1.5"></i>
-                                    Closing on January 9, 2020
+                                    Closing on 2022-12-31
                                 </div>
                             </div>
                         </div>

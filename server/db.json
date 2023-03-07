@@ -1,39 +1,46 @@
 {
   "jobs": [
     {
-      "id": "1",
-      "title": "Software Engineer",
-      "type": "Full Time",
-      "salary": "80,000",
-      "deadline": "May 20, 2023"
-    },
-    {
-      "id": "2",
-      "title": "Web Developer",
-      "type": "Remote",
-      "salary": "70,000",
-      "deadline": "April 12, 2023"
-    },
-    {
-      "id": "3",
-      "title": "Backend Developer",
-      "type": "Full Time",
-      "salary": "90,000",
-      "deadline": "June 25, 2023"
-    },
-    {
-      "id": "4",
-      "title": "Frontend Developer",
-      "type": "Remote",
-      "salary": "75,000",
-      "deadline": "July 2, 2023"
-    },
-    {
-      "id": "5",
       "title": "DevOps Engineer",
+      "type": "Internship",
+      "salary": "25002",
+      "deadline": "2024-12-31",
+      "id": 2
+    },
+    {
+      "title": "QA Engineer",
       "type": "Full Time",
-      "salary": "120,000",
-      "deadline": "May 2, 2023"
+      "salary": "15000",
+      "deadline": "2023-12-31",
+      "id": 3
+    },
+    {
+      "title": "Product Manager",
+      "type": "Remote",
+      "salary": "18000",
+      "deadline": "2022-12-31",
+      "id": 4
+    },
+    {
+      "title": "Social Media Manager",
+      "type": "Internship",
+      "salary": "20000",
+      "deadline": "2022-11-31",
+      "id": 5
+    },
+    {
+      "title": "Android App Developer",
+      "type": "Remote",
+      "salary": "35000",
+      "deadline": "2022-12-31",
+      "id": 6
+    },
+    {
+      "title": "Full Stack Developer",
+      "type": "Internship",
+      "salary": "18000",
+      "deadline": "2022-12-31",
+      "id": 7
     }
   ]
 }
