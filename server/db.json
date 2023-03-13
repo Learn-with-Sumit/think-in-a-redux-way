@@ -18,28 +18,28 @@
       "title": "Product Manager",
       "type": "Remote",
       "salary": "18000",
-      "deadline": "2022-12-31",
+      "deadline": "2023-12-31",
       "id": 4
     },
     {
       "title": "Social Media Manager",
       "type": "Internship",
       "salary": "20000",
-      "deadline": "2022-11-31",
+      "deadline": "2023-11-31",
       "id": 5
     },
     {
       "title": "Android App Developer",
       "type": "Remote",
       "salary": "35000",
-      "deadline": "2022-12-31",
+      "deadline": "2023-12-31",
       "id": 6
     },
     {
       "title": "Full Stack Developer",
       "type": "Internship",
       "salary": "18000",
-      "deadline": "2022-12-31",
+      "deadline": "2023-12-31",
       "id": 7
     }
   ]
