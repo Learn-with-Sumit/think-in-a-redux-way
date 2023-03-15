@@ -67,7 +67,7 @@ const fetchPosts = () => {
 
         try {
             const response = await fetch(
-                "https://jsonplaceholder.typicodes.com/posts?_limit=5"
+                "https://jsonplaceholder.typicode.com/posts?_limit=5"
             );
             const posts = await response.json();
             dispatch(fetchPostsSucceeded(posts));
