@@ -1,0 +1,14 @@
+{
+  "name": "lws-json-server-todos",
+  "description": "Example in memory todos api with json-server by Learn with Sumit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --no-cors true  --port 9000"
+  },
+  "dependencies": {
+    "json-server": "^0.17.1"
+  },
+  "keywords": [],
+  "author": "Sumit Saha, Learn with Sumit"
+}
