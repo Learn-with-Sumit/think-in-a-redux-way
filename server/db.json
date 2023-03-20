@@ -38,7 +38,7 @@
       "id": 1
     },
     {
-      "name": "Sadh Hasan",
+      "name": "Saad Hasan",
       "avatar": "/images/avatars/sadh.png",
       "id": 2
     },
@@ -99,7 +99,8 @@
       },
       "deadline": "2023-03-23",
       "id": 2,
-      "projectName": "Scoreboard"
+      "projectName": "Scoreboard",
+      "status": "pending"
     },
     {
       "taskName": "Task Three",
@@ -114,7 +115,8 @@
         "colorClass": "color-productCart"
       },
       "deadline": "2023-03-03",
-      "id": 3
+      "id": 3,
+      "status": "inProgress"
     },
     {
       "taskName": "New Task",
@@ -130,6 +132,7 @@
       },
       "deadline": "2023-03-11",
       "projectName": "Scoreboard",
+      "status": "inProgress",
       "id": 4
     },
     {
