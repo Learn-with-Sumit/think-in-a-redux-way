@@ -38,7 +38,7 @@
       "id": 1
     },
     {
-      "name": "Sadh Hasan",
+      "name": "Saad Hasan",
       "avatar": "/images/avatars/sadh.png",
       "id": 2
     },
@@ -72,7 +72,7 @@
     {
       "taskName": "Task One",
       "teamMember": {
-        "name": "Sadh Hasan",
+        "name": "Saad Hasan",
         "avatar": "/images/avatars/sadh.png",
         "id": 2
       },
