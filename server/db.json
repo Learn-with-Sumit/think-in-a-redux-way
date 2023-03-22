@@ -38,7 +38,7 @@
       "id": 1
     },
     {
-      "name": "Saad Hasan",
+      "name": "Sadh Hasan",
       "avatar": "/images/avatars/sadh.png",
       "id": 2
     },
@@ -72,9 +72,9 @@
     {
       "taskName": "Task One",
       "teamMember": {
-        "name": "Saad Hasan",
+        "name": "Sadh Hasan",
         "avatar": "/images/avatars/sadh.png",
-        "id": 1
+        "id": 2
       },
       "project": {
         "id": 1,
@@ -98,16 +98,14 @@
         "colorClass": "color-flight"
       },
       "deadline": "2023-03-23",
-      "id": 2,
-      "projectName": "Scoreboard",
-      "status": "pending"
+      "id": 2
     },
     {
       "taskName": "Task Three",
       "teamMember": {
         "name": "Sumit Saha",
         "avatar": "/images/avatars/sumit.png",
-        "id": 3
+        "id": 1
       },
       "project": {
         "id": 3,
@@ -115,8 +113,7 @@
         "colorClass": "color-productCart"
       },
       "deadline": "2023-03-03",
-      "id": 3,
-      "status": "inProgress"
+      "id": 3
     },
     {
       "taskName": "New Task",
@@ -131,8 +128,6 @@
         "colorClass": "color-scoreboard"
       },
       "deadline": "2023-03-11",
-      "projectName": "Scoreboard",
-      "status": "inProgress",
       "id": 4
     },
     {
@@ -142,7 +137,6 @@
         "avatar": "/images/avatars/salahuddin.png",
         "id": 4
       },
-      "projectName": "Book Store",
       "deadline": "2023-03-18",
       "project": {
         "id": 4,
